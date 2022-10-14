@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aleo', serif;
+}
+.container {
+    background-color: rgb(40, 41, 83);
+    opacity: 85%;
+}
+
+h1 {
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Aleo', serif;
+}
+
+body {
+
+    padding: 7em;
+    background-image:url(../cripauladia10/crip.jpeg) ;
+       display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+   background-size: 100%;
+
+}
+
+#msg1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.radioType {
+    display: inline;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#msg2 {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 22px;
+    font-family: 'Aleo', serif;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+   margin-top: 7cm;
+    width: 117%;
+    background-color: blue;
+    opacity: 60%;
+    height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    *, h1, body, .radioType{
+        width: auto;
+    }
+
+
+
+    .footer {
+        width: auto;
+    }
+}
+.seletorCesar {
+color:white;
+font-size: 25px;
+padding: 1px;
+margin-left: 200px;
+}
