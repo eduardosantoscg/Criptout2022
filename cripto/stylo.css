@@ -2,11 +2,25 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Aleo', serif;
+    text-align: center;
 }
 .container {
     background-color: rgb(40, 41, 83);
     opacity: 85%;
+    text-align: center;
+    width: 1300px;
+    height: 600px;
 }
+.caixa1{
+    font-size: 20px;
+
+}
+.caixa3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
 
 h1 {
     color:white;
@@ -18,7 +32,7 @@ h1 {
 body {
 
     padding: 7em;
-    background-image:url(../cripauladia10/crip.jpeg) ;
+    background-image:url(../cripto/crip.jpeg) ;
        display: flex;
     text-align: center;
     flex-direction: column;
@@ -52,11 +66,10 @@ label {
     text-align: center;
     font-size: 13px;
     color: white;
-   margin-top: 7cm;
     width: 117%;
     background-color: blue;
     opacity: 60%;
-    height: 20px;
+    height: 30px;
 }
 
 @media screen and (max-width: 480px) {
@@ -75,4 +88,11 @@ color:white;
 font-size: 25px;
 padding: 1px;
 margin-left: 200px;
+}
+.botaomsg{
+ margin-left: 15cm;
+ margin-top: 10px;
+}
+.botaomsg input{
+    font-size: 30px;
 }

@@ -12,18 +12,18 @@
 
     <h1>Criptografe suas mensagens aqui!</h1>
 
-    <label for="mensagem1">Escreva a sua mensagem:</label >
+    <label for="mensagem1"><p>Escreva a sua mensagem:</p></label><br>
     
-    <textarea cols="30" rows="3" name="msg1" id="msg1"></textarea>
+    <textarea class="caixa1" cols="40" rows="3" name="msg1" id="msg1"></textarea>
 
-    <label for="escolhaMetodo">Escolha o Método Abaixo:</label><br>
+    <label class="caixa2" for="escolhaMetodo"><p>Escolha o Método Abaixo:</p></label><br>
     <select name="cifras" id="cifras">
-        <option value="emBranco">Escolha</option>
+        <option value="emBranco">Escolher</option>
         <option value="cesar" id="cCesar">Cifra de César</option>
         <option value="base" id="b64">Base64</option>
-    </select><br>
+    </select><br><br>
 
-    <div class="seletorCesar" style="display: none;">
+    <div class="seletorCesar" style="display: none";>
         <br>
         <p>Chave: </p>
         <input type="number" name="posiçãoCesar" id="posiçãoCesar" min="1" max="26">
@@ -31,10 +31,10 @@
 
     <div class="radioType">
         <input type="radio" name="options" value="criptografar" id="criptografar">
-        <label for="criptografar" id="labelCriptografar">Criptografe Aqui</label>
-
+        <label for="criptografar" id="labelCriptografar">Criptografar</label>
+<br><br>
         <input type="radio" name="options" value="descriptografar" id="descriptografar">
-        <label for="descriptografar" id="labelDescriptografar">Descriptografe Aqui</label>
+        <label for="descriptografar" id="labelDescriptografar">Descriptograr</label>
     </div>
 
     <div class="botaomsg">
@@ -43,7 +43,7 @@
     </div>
 
     <label for="resultado" id="resultado"> </label>
-    <textarea name="msg2" id="msg2" cols="30" rows="3"></textarea>
+    <textarea class="caixa3" name="msg2" id="msg2" cols="30" rows="3"></textarea>
 </container>
 
     <script src="script.js"></script>
